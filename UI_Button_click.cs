@@ -82,7 +82,10 @@ public class UI_Button_click : MonoBehaviour
     {
         toPage("UI_MainMenu");
     }
-
+    public void Button_UI_cpnMenu_click()
+    {
+        toPage("UI_cpnMenu");
+    }
     public void Button_case_func_click()
     {
         toPage("UI_case_func");
@@ -94,5 +97,77 @@ public class UI_Button_click : MonoBehaviour
     public void Button_case_compare_click()
     {
         toPage("UI_case_compare");
+    }
+    public void Button_board_func_click()
+    {
+        toPage("UI_board_func");
+    }
+    public void Button_board_locate_click()
+    {
+        toPage("UI_board_locate");
+    }
+    public void Button_board_compare_click()
+    {
+        toPage("UI_board_compare");
+    }
+    public void Button_cpu_func_click()
+    {
+        toPage("UI_cpu_func");
+    }
+    public void Button_cpu_locate_click()
+    {
+        toPage("UI_cpu_locate");
+    }
+    public void Button_cpu_compare_click()
+    {
+        toPage("UI_cpu_compare");
+    }
+    public void Button_ram_func_click()
+    {
+        toPage("UI_ram_func");
+    }
+    public void Button_ram_locate_click()
+    {
+        toPage("UI_ram_locate");
+    }
+    public void Button_ram_compare_click()
+    {
+        toPage("UI_ram_compare");
+    }
+    public void Button_gpu_func_click()
+    {
+        toPage("UI_gpu_func");
+    }
+    public void Button_gpu_locate_click()
+    {
+        toPage("UI_gpu_locate");
+    }
+    public void Button_gpu_compare_click()
+    {
+        toPage("UI_gpu_compare");
+    }
+    public void Button_m2_func_click()
+    {
+        toPage("UI_m2_func");
+    }
+    public void Button_m2_locate_click()
+    {
+        toPage("UI_m2_locate");
+    }
+    public void Button_m2_compare_click()
+    {
+        toPage("UI_m2_compare");
+    }
+    public void Button_power_func_click()
+    {
+        toPage("UI_power_func");
+    }
+    public void Button_power_locate_click()
+    {
+        toPage("UI_power_locate");
+    }
+    public void Button_power_compare_click()
+    {
+        toPage("UI_power_compare");
     }
 }
